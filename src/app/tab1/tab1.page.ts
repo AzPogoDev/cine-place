@@ -9,6 +9,8 @@ import { DataService } from '../data.service';
 export class Tab1Page {
   cinemas = [];
 
+  byFavorite = false;
+
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
