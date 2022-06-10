@@ -62,6 +62,17 @@
         "longitude": "3.222"
       },
       "id": 6
+    },
+    {
+      "name": "Amigraf localisation",
+      "image": "https://isarta.fr/images-offres/2018/316/6152/6152_logo_rs.gif?1568302061",
+      "isFavorite": false,
+      "localisation": {
+        "adresse": "Rue abélard",
+        "latitude": "50.6292",
+        "longitude": "3.0573"
+      },
+      "id": 7
     }
   ]
 }

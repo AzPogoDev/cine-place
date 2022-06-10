@@ -27,12 +27,12 @@
       Voir les les plus proches
     </ion-button>
 
-    <div *ngIf="early">
-      <ion-list *ngFor="let cine of early">
+    <div *ngIf="earlycine">
+      <ion-list *ngFor="let cine of earlycine">
         <ion-card>
           <ion-card-header>
             <ion-card-subtitle>cinema</ion-card-subtitle>
-            <ion-card-title>{{ cine.name}}</ion-card-title>
+            <ion-card-title>{{ cine.ciname}}</ion-card-title>
           </ion-card-header>
 
           <ion-card-content>

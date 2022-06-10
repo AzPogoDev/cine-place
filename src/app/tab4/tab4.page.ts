@@ -79,7 +79,8 @@ export class Tab4Page {
       return a['distance'] - b['distance'];
     });
 
-    console.log(early);
-    return early;
+    early.shift();
+
+    this.earlycine = early;
   }
 }

@@ -21,10 +21,7 @@
         <ion-card-title>{{ cinema.name}}</ion-card-title>
       </ion-card-header>
 
-      <ion-card-content>
-        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the
-        Wisconsin Territory in 1836.
-      </ion-card-content>
+
       <ion-button item-end (click)="addToFavorite(cinema)" *ngIf="cinema.isFavorite === false">
         <ion-icon class="btn-custom" name="heart-circle-outline" shape="solid">
         </ion-icon>
