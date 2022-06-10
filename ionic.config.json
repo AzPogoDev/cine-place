@@ -1,0 +1,8 @@
+{
+  "name": "CinePlace",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "2cfd407e"
+}
