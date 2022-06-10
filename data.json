@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Cinema de lille",
       "image": "https://www.europa-cinemas.org/storage/1416/prix-europa-cinemas-2018.jpeg",
-      "isFavorite": false,
+      "isFavorite": true,
       "localisation": {
         "adresse": "63 boulevard vauban",
         "latitude": "50.637",
@@ -26,7 +26,7 @@
       "id": 3,
       "name": "Cinema de roubaix",
       "image": "https://www.europa-cinemas.org/storage/1416/prix-europa-cinemas-2018.jpeg",
-      "isFavorite": true,
+      "isFavorite": false,
       "localisation": {
         "adresse": "73 rue des tilleuls",
         "latitude": "51.437",
