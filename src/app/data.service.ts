@@ -14,13 +14,12 @@ export class DataService {
   }
 
   addToFavorite(cinema) {
-    console.log('addToFavorite', cinema);
     return this.httpClient
       .patch(this.API_URL + '/cinemas/' + cinema.id, {
         isFavorite: true,
       })
       .subscribe((data) => {
-        console.log(data);
+
       });
   }
 
@@ -31,7 +30,6 @@ export class DataService {
         isFavorite: false,
       })
       .subscribe((data) => {
-        console.log(data);
       });
   }
 
