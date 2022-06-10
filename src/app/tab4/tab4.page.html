@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>tab4</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="ion-padding">
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Mes coordonnées</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>
+          Latitue
+        </ion-label>
+        <ion-badge color="danger" slot="end">{{latitude}}</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Longitude
+        </ion-label>
+        <ion-badge color="danger" slot="end">{{longitude}}</ion-badge>
+      </ion-item>
+    </ion-list>
+    <ion-button (click)="compareLocalisation()" expand="block">
+      Voir les les plus proches
+    </ion-button>
+
+    <div *ngIf="early">
+      <ion-list *ngFor="let cine of early">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle>cinema</ion-card-subtitle>
+            <ion-card-title>{{ cine.name}}</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            Ce cinema ce trouve a : {{ cine.distance }} km
+          </ion-card-content>
+
+
+
+        </ion-card>
+      </ion-list>
+    </div>
+
+
+  </div>
+</ion-content>
