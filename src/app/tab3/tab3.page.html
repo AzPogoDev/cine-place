@@ -1,17 +1,37 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Favorites movies
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+
+<ion-content>
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Cinemas</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-list *ngFor="let cinema of cinemas" >
+    <ion-card>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+      <img src="{{ cinema.image }}">
+      <ion-card-header>
+        <ion-card-subtitle>cinema</ion-card-subtitle>
+        <ion-card-title>{{ cinema.name}}</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the
+        Wisconsin Territory in 1836.
+      </ion-card-content>
+
+      <ion-button *ngIf="cinema.isFavorite === true" item-end (click)="removeToFavorite(cinema)">
+        <ion-icon class="btn-custom" name="trash-outline" shape="solid"></ion-icon>
+      </ion-button>
+
+
+    </ion-card>
+  </ion-list>
 </ion-content>

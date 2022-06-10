@@ -13,5 +13,41 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-list>
+    <!-- Create formulare to add cinema -->
+
+    <ion-item>
+      <ion-label position="floating">Name</ion-label>
+      <ion-input type="text" [(ngModel)]="cinema.name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Image</ion-label>
+      <ion-input type="text" [(ngModel)]="cinema.image"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Address</ion-label>
+      <ion-input id="searchTextField" type="text" [(ngModel)]="cinema.localisation.adresse"></ion-input>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-label position="floating">latitude</ion-label>
+      <ion-input id="searchTextField" type="text" [(ngModel)]="cinema.localisation.latitude"></ion-input>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-label position="floating">longitude</ion-label>
+      <ion-input id="searchTextField" type="text" [(ngModel)]="cinema.localisation.longitude"></ion-input>
+    </ion-item>
+
+
+    <ion-button color="primary" expand="block" (click)="onSubmit()">Create new</ion-button>
+
+
+  </ion-list>
+
+
 </ion-content>
