@@ -1,0 +1,67 @@
+{
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "Cinema de lille",
+      "image": "https://www.europa-cinemas.org/storage/1416/prix-europa-cinemas-2018.jpeg",
+      "isFavorite": false,
+      "localisation": {
+        "adresse": "63 boulevard vauban",
+        "latitude": "50.637",
+        "longitude": "3.056"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Cinema de dunkerque",
+      "image": "https://www.europa-cinemas.org/storage/1416/prix-europa-cinemas-2018.jpeg",
+      "isFavorite": false,
+      "localisation": {
+        "adresse": "73 boulevard vauban",
+        "latitude": "51.637",
+        "longitude": "4.056"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cinema de roubaix",
+      "image": "https://www.europa-cinemas.org/storage/1416/prix-europa-cinemas-2018.jpeg",
+      "isFavorite": true,
+      "localisation": {
+        "adresse": "73 rue des tilleuls",
+        "latitude": "51.437",
+        "longitude": "4.156"
+      }
+    },
+    {
+      "name": "Riton du 77",
+      "image": "https://thumbs.dreamstime.com/b/%C3%A9cran-de-cin%C3%A9ma-avec-les-rideaux-et-les-si%C3%A8ges-rouges-34205986.jpg",
+      "localisation": {
+        "adresse": "87 rue de la paix",
+        "latitude": "",
+        "longitude": ""
+      },
+      "id": 4
+    },
+    {
+      "name": "Je suis un cinema",
+      "image": "https://thumbs.dreamstime.com/b/%C3%A9cran-de-cin%C3%A9ma-avec-les-rideaux-et-les-si%C3%A8ges-rouges-34205986.jpg",
+      "localisation": {
+        "adresse": "78 rue de la paix",
+        "latitude": "",
+        "longitude": ""
+      },
+      "id": 5
+    },
+    {
+      "name": "Cinema de la paix",
+      "image": "https://thumbs.dreamstime.com/b/%C3%A9cran-de-cin%C3%A9ma-avec-les-rideaux-et-les-si%C3%A8ges-rouges-34205986.jpg",
+      "localisation": {
+        "adresse": "78 rue de la paix",
+        "latitude": "70.33",
+        "longitude": "3.222"
+      },
+      "id": 6
+    }
+  ]
+}
